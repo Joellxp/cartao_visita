@@ -1,0 +1,50 @@
+/* styles.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background: linear-gradient(aqua, rgb(0, 183, 255));
+    color: blueviolet;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+}
+header img{
+    border-radius: 70%;
+}
+nav{
+    background: linear-gradient(rgb(153, 255, 19), rgb(251, 255, 0));
+    text-align: center;
+}
+footer{
+    background: linear-gradient(rgb(255, 208, 0), rgb(255, 166, 0));
+    text-align: center;
+    border-radius: 08%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center ; /* Centraliza verticalmente */
+    align-items: center;     /* Centraliza horizontalmente */
+    min-height: 100vh;       /* Define altura mínima para ocupar a tela toda */
+    text-align: center;      /* Centraliza o texto */
+    padding: 20px;           /* Espaço ao redor do conteúdo */
+    font-family: Arial, sans-serif;
+}
+
+h1, h2, h4 {
+    margin: 10px 0; /* Adiciona espaçamento entre os títulos */
+}
+
+img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse o tamanho do contêiner */
+    height: auto;    /* Mantém a proporção da imagem */
+    margin: 10px 0;
+}
+
+p {
+    max-width: 800px; /* Limita a largura dos parágrafos para melhor leitura */
+    margin: 10px 0;
+}
